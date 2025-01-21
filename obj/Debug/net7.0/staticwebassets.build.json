@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3uMDG1xOtil41S7QgKE1SgjXu80SdTR8cumVEjP8e6Y=",
+  "Source": "ApiMangas",
+  "BasePath": "_content/ApiMangas",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
