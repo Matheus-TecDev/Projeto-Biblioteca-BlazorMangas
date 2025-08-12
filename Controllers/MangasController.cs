@@ -1,12 +1,11 @@
-﻿using ApiMangas.ApiPaginacao;
-using ApiMangas.DTOs;
+﻿using ApiMangas.DTOs;
 using ApiMangas.Entities;
 using ApiMangas.Repositories.Interfaces;
 using AutoMapper;
-using BlazorMangas.Models.DTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ApiMangas.Extensions;
 
 namespace ApiMangas.Controllers;
 

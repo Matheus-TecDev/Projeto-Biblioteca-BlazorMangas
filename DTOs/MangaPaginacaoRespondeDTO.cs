@@ -1,4 +1,5 @@
-namespace BlazorMangas.Models.DTOs;
+namespace ApiMangas.DTOs;
+
 
 public class MangaPaginacaoResponseDTO
 {
