@@ -1,87 +1,83 @@
-# 📚 Blazor Mangás API
+# 📚 API de Mangás — Backend 
 
-Uma API RESTful desenvolvida em ASP.NET Core (.NET 8) para cadastro, autenticação e gerenciamento de mangás. Ideal para integrar com um frontend Blazor ou qualquer aplicação moderna que consuma dados via HTTP.
+## 📖 Descrição
+O **BlazorMangasProjeto** é o **backend** de um sistema fullstack de gerenciamento e listagem de mangás, desenvolvido em **C# .NET 8**.  
 
----
+Este projeto foi construído com uma equipe, como prática de um **curso Fullstack em C#**.  
+No entanto, maior parte optou por não serem vistos como colaboradores do projeto.  
 
-## 🚀 Tecnologias Utilizadas
-
-- ASP.NET Core 8 (API)
-- Entity Framework Core
-- Identity com autenticação JWT
-- AutoMapper
-- Swagger para documentação
-- LINQ + extensões de paginação
+📺 Baseado no curso: [Playlist no YouTube](https://www.youtube.com/playlist?list=PLJ4k1IC8GhW1ge0aNQ9kjPDxaB1Hl5Mn_)
 
 ---
 
-## ⚙️ Funcionalidades
-
-- 🔐 Cadastro e login de usuários com JWT
-- 📄 Listagem de mangás com paginação
-- 🔍 Busca por título ou categoria
-- 🧩 Integração com banco via EF Core
-- 📦 DTOs para transporte limpo de dados
-- 🧠 Separação por camadas (Entities, Repositories, Controllers, DTOs)
+## ⚡ Funcionalidades
+- CRUD completo de **Mangás**.
+- Cadastro e autenticação de **usuários**.
+- Geração de **tokens JWT** para segurança.
+- Controle de **categorias**.
+- Upload de imagens e arquivos relacionados.
+- Paginação de resultados.
 
 ---
 
-## 🧪 Como rodar localmente
+## 📚 Conceitos praticados
+- Desenvolvimento de **Web API com .NET 8**.
+- Uso de **Entity Framework Core** para persistência.
+- Estruturação de **Entities** e **DTOs**.
+- Autenticação com **Identity + JWT**.
+- Boas práticas de **arquitetura em camadas**.
 
-1. Certifique-se que o .NET 8 SDK está instalado:
-```bash
-dotnet --version
-```
+---
 
-2. Clone o projeto:
-```bash
-git clone <url-do-repositorio>
+## 🛠️ Tecnologias
+- **C# .NET 8**
+- **ASP.NET Core Web API**
+- **Entity Framework Core**
+- **SQL Server**
+- **Identity + JWT**
+- **Swagger** para documentação
+
+---
+
+## 🚀 Como rodar o backend
+
+1. **Clonar o repositório**
+   git clone https://github.com/Matheus-TecDev/Projeto-Biblioteca-BlazorMangas.git
+   
+Entrar na pasta
+
 cd BlazorMangasProjeto
-```
 
-3. Restaure as dependências:
-```bash
+Restaurar pacotes
 dotnet restore
-```
 
-4. Execute a aplicação:
-```bash
+Rodar em modo desenvolvimento
 dotnet run
-```
 
-5. Acesse no navegador:
-```
-http://localhost:5094/swagger
-```
+A API estará disponível em:
 
----
+https://localhost:5001/swagger
 
-## 🗂️ Estrutura do Projeto
+🤝 Contribuição
+Este projeto foi feito em equipe (5 pessoas).
+Sugestões de melhorias são bem-vindas:
 
-```
-📦 BlazorMangasProjeto
-├── Controllers/
-├── DTOs/
-├── Entities/
-├── Extensions/
-├── Mappings/
-├── Repositories/
-├── Program.cs
-├── appsettings.json
-└── ApiMangas.csproj
-```
+Abra uma issue para bugs/ideias
 
----
+Envie um Pull Request com contribuições
 
-## 📌 Endpoints Principais
+📌 Roadmap
+ Implementar refresh token
 
-| Método | Rota | Descrição |
-|--------|------|-----------|
-| `POST` | `/api/users/register` | Cadastro de novo usuário |
-| `POST` | `/api/users/login` | Login com JWT |
-| `GET`  | `/api/mangas` | Lista todos os mangás |
-| `GET`  | `/api/mangas/paginacao` | Mangás paginados |
-| `GET`  | `/api/mangas/search/{titulo}` | Buscar por título |
-| `GET`  | `/api/mangas/get-mangas-by-category/{categoriaId}` | Buscar por categoria |
+ Adicionar mais filtros de busca
 
----# Projeto-Biblioteca-BlazorMangas
+ Melhorar upload de arquivos
+
+ Criar relatórios/exportação de dados
+
+## 👨‍💻 Autores
+
+- [Matheus Freire](https://github.com/Matheus-TecDev)  
+- [LinkedIn](https://www.linkedin.com/in/matheus-freire-martins-da-costa-318622376/) 
+ 
+📫 Contato: matheus.tecnodev@gmail.com
