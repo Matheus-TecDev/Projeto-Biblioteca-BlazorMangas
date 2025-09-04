@@ -8,6 +8,7 @@ No entanto, maior parte optou por não serem vistos como colaboradores do projet
 
 🔗 Frontend relacionado: [API de Mangás](https://github.com/Matheus-TecDev/Projeto-Catalogacao-BlazorMangas) 
 📺 Baseado no curso: [Playlist no YouTube](https://www.youtube.com/playlist?list=PLJ4k1IC8GhW1ge0aNQ9kjPDxaB1Hl5Mn_)
+
 ---
 
 ## ⚡ Funcionalidades
