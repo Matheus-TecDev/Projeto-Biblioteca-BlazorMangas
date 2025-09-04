@@ -6,8 +6,8 @@ O **BlazorMangasProjeto** é o **backend** de um sistema fullstack de gerenciame
 Este projeto foi construído com uma equipe, como prática de um **curso Fullstack em C#**.  
 No entanto, maior parte optou por não serem vistos como colaboradores do projeto.  
 
+🔗 Frontend relacionado: [API de Mangás](https://github.com/Matheus-TecDev/Projeto-Catalogacao-BlazorMangas) 
 📺 Baseado no curso: [Playlist no YouTube](https://www.youtube.com/playlist?list=PLJ4k1IC8GhW1ge0aNQ9kjPDxaB1Hl5Mn_)
-
 ---
 
 ## ⚡ Funcionalidades
@@ -42,23 +42,26 @@ No entanto, maior parte optou por não serem vistos como colaboradores do projet
 ## 🚀 Como rodar o backend
 
 1. **Clonar o repositório**
+   ```bash
    git clone https://github.com/Matheus-TecDev/Projeto-Biblioteca-BlazorMangas.git
    
-Entrar na pasta
+2. Entrar na pasta
+   ```bash
+   cd BlazorMangasProjeto
 
-cd BlazorMangasProjeto
+3. Restaurar pacotes
+   ```bash
+   dotnet restore
 
-Restaurar pacotes
-dotnet restore
-
-Rodar em modo desenvolvimento
-dotnet run
+4. Rodar em modo desenvolvimento
+   ```bash
+   dotnet run
 
 A API estará disponível em:
 
 https://localhost:5001/swagger
 
-🤝 Contribuição
+## 🤝 Contribuição
 Este projeto foi feito em equipe (5 pessoas).
 Sugestões de melhorias são bem-vindas:
 
@@ -66,7 +69,7 @@ Abra uma issue para bugs/ideias
 
 Envie um Pull Request com contribuições
 
-📌 Roadmap
+## 📌 Roadmap
  Implementar refresh token
 
  Adicionar mais filtros de busca
@@ -80,4 +83,4 @@ Envie um Pull Request com contribuições
 - [Matheus Freire](https://github.com/Matheus-TecDev)  
 - [LinkedIn](https://www.linkedin.com/in/matheus-freire-martins-da-costa-318622376/) 
  
-📫 Contato: matheus.tecnodev@gmail.com
+📫 Contato: [matheus.tecnodev@gmail.com](mailto:matheus.tecnodev@gmail.com)
